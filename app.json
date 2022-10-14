@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "AlohaMusic0cg220633",
-    "slug": "AlohaMusic0cg220633",
+    "name": "AlohaMusic-cg220633",
+    "slug": "AlohaMusic-cg220633",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./assets/alohaIcon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/hawaii.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
