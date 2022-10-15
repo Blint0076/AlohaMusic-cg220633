@@ -123,8 +123,7 @@ export default class App extends Component {
             onPress={this.handlePlayPauseUku}
           >
             {this.state.isPlayingUku ?
-              <Feather name="pause" size={32} color="#563822"/> 
-              :
+              <Feather name="pause" size={32} color="#563822"/>:
               <Feather name="play"  size={32} color="#563822"/>
             }
           </TouchableOpacity>
@@ -154,11 +153,11 @@ const styles = StyleSheet.create({
   },
   containerHeader: {
     flex: 1,
-    marginTop: 150,
+    marginTop: 100,
     backgroundColor: '#da9547',
   },
   containerBody: {
-    flex: 18,
+    flex: 13,
     backgroundColor: '#f4e3cf',
     alignItems: 'center',
     justifyContent: 'center',
