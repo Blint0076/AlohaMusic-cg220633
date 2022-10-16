@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Feather } from 'react-native-vector-icons';
 import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import { Audio, InterruptionModeAndroid, InterruptionModeIOS } from 'expo-av';
-/* import * as SplashScreen from 'expo-splash-screen';
+ import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.preventAutoHideAsync();
-setTimeout(SplashScreen.hideAsync, 2000); */
+setTimeout(SplashScreen.hideAsync, 2000);
 
 import ukulele from './assets/ukulele.png'
 import drums from './assets/drums.png'
@@ -31,10 +31,10 @@ export default class App extends Component {
       //interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
       interruptionModeAndroid: InterruptionModeAndroid.DoNotMix,
     });
-/*     this.setState({
+     this.setState({
       filePath: './music/ukulele.mp3',
     });
- */    this.loadAudio();
+    this.loadAudio();
   }
 
   handlePlayPauseUku = async () => {
