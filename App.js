@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Feather } from 'react-native-vector-icons';
+import { Feather } from '@expo/vector-icons';
 import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import { Audio, InterruptionModeAndroid, InterruptionModeIOS } from 'expo-av';
  import * as SplashScreen from 'expo-splash-screen';
@@ -24,17 +24,15 @@ export default class App extends Component {
     await Audio.setAudioModeAsync({
       allowsRecordingIOS: false,
       playThroughEarpieceAndroid: true,
-      //interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
       interruptionModeIOS: InterruptionModeIOS.DoNotMix,
       playsInSilentModeIOS: true,
       shouldDuckAndroid: true,
-      //interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
       interruptionModeAndroid: InterruptionModeAndroid.DoNotMix,
     });
-     this.setState({
+/*      this.setState({
       filePath: './music/ukulele.mp3',
     });
-    this.loadAudio();
+ */    this.loadAudio();
   }
 
   handlePlayPauseUku = async () => {

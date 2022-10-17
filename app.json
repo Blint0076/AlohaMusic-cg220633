@@ -3,12 +3,12 @@
     "name": "AlohaMusic-cg220633",
     "slug": "AlohaMusic-cg220633",
     "version": "1.0.0",
-    "orientation": "default",
-    "icon": "./assets/alohaIcon.png",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/hawaii.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/alohaIcon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
